@@ -1,0 +1,245 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 5 mar. 2024, 10:17:56
+    Author     : hecto
+*/
+body, hml{
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal; 
+}
+p{
+    font-size: 16px;
+    color:#FFFFFF
+}
+a{
+  text-decoration: none;
+  font-size: 16px;
+  color:#FFFFFF;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+  color:#262626
+}
+.bg_imagen{
+  background-image: url("realstate.jpg");
+  background-color: #F4FAF0;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+.info{
+    background-color: #72B944;
+    height: 50px;
+}
+.pleft-5{
+    padding-left: 13rem;
+}
+.boton_add {
+    border-radius: 50px;
+    background-color:  #72B944;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 12px;
+}
+.boton_explore{
+     border-radius: 50px;
+    background-color:  #72B944;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.form-control{
+    border:none;
+     font-size: 20px;
+     font-weight: bold;
+    /* border-right-color: #535353;
+     border-right-style: solid;*/    
+}
+.border_select{
+    border: solid 2px #72B944; 
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+.card_slider{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 255px;
+  height: 400px; 
+}
+
+.card_slider1{
+background-image: url('realstate1.jpg');
+}
+.card_slider2{
+background-image: url('realstate2.jpg');
+}
+.card_slider3{
+background-image: url('realstate3.jpg');
+}
+.card_slider4{
+background-image: url('realstate4.jpg');
+}
+
+.card-body{
+padding-top: 5em;
+}
+.card-title{
+color: #FFFFFF;
+font-size: 35px;
+}
+.card-text{
+color: #FFFFFF;
+font-size: 18px;
+}
+.card-text .span1{
+color: #FFFFFF;
+font-size: 18px;
+}
+.card-text .span2{
+color: #FFFFFF;
+font-size: 18px;
+font-weight: bolder;
+}
+
+
+.hero_bg{
+  background-image: url('hero_banner1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 25px;
+}
+.hero_bg2{
+      opacity: 1;
+      background: linear-gradient(to right, transparent 0%, #262626 100%);
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+}
+.hero_bg3{
+  background-image: url('hero_banner2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 25px;
+}
+.hero_bg4{
+      opacity: 1;
+      background: linear-gradient(to left, transparent 0%, #262626 100%);
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+}
+
+.btn_more{
+    border: solid 1px #FFFFFF; 
+    border-radius: 50px;
+    background-color:  transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 15px;
+}
+.btn_start{
+    border: solid 1px #FFFFFF; 
+    border-radius: 50px;
+    background-color:  transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 15px;
+}
+.btn_find{
+    border: solid 1px #FFFFFF; 
+    border-radius: 50px;
+    background-color:  #FFFFFF;
+    color: #262626;
+    font-size: 16px;
+    padding: 15px;
+}
+.btn_search{ 
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #262626;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px;
+    width: 111px;
+    height: 52px;
+   
+}
+.input_in{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px;
+    width: 450px;
+    height: 52px;
+}
+.borde_img{
+    border-radius: 15px;
+   
+}
+.borde_img2{
+    border-radius: 15px;
+    background-color: #72B944;
+    padding: 5em;
+    text-align: center;
+
+}
+.borde_img3{
+    border-radius: 15px;
+    background-color: #262626;
+    padding: 5em;
+    text-align: center;
+    
+}
+.borde_img4{
+    border-radius: 15px;
+    background-color: #72B944;
+    padding-top: 5em;
+    padding-bottom: 9em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    
+}
+.borde_img5{
+    border-radius: 15px;
+    background-color: #262626;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;    
+}
+.borde_img6{
+    border-radius: 15px;
+    background-color: #72B944;
+    padding-top: 5em;
+    padding-bottom: 2.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;    
+}
+.banner_green{
+  background-color: #72B944;
+  border-radius: 25px;
+}
+/*.banner_degrad{
+  opacity: 1;
+  background: linear-gradient(to left, transparent 0%, #FFFFFF 100%);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}*/
+.pad_colm{
+    padding: 5em;
+}
